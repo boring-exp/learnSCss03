@@ -1,0 +1,8 @@
+// 使用继承语法时，不用加模块名
+@use 'common/extend';
+
+.test {
+  // extend指令配合extend使用
+  @extend %shared-style;
+  opacity: 0.5;
+}

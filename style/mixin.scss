@@ -1,0 +1,6 @@
+@use 'common/mixin';
+
+.test {
+  // include指令配合mixin使用
+  @include mixin.base($theme: red);
+}
