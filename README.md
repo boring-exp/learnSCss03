@@ -1,1 +1,1 @@
-sass style:output
+sass -w style:output
